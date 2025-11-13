@@ -4,5 +4,7 @@ function fazerlogin(){
 
     if(login === 'cenep' && senha === 'cenep123'){
         window.location.href = 'pagina2.html'
+    }else{
+        alert('login ou senha incorretos')
     }
-}
+    }
